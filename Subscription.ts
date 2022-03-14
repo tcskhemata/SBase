@@ -1,4 +1,4 @@
-import { APICall, APIRequest, RequestMethod } from './APICall';
+import { APICall, APIRequest, RequestMethod } from 'https://tcskhemata.github.io/SBase/APICall.ts';
 
 export interface Subscription{
   data: any;
