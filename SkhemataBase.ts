@@ -1,10 +1,10 @@
 import { LitElement } from 'lit';
 import { property } from 'lit/decorators.js';
 import { ScopedElementsMixin } from '@open-wc/scoped-elements';
-import { Skhemata } from '@skhemata/skhemata-api-client-js';
-import { Bulma } from '@skhemata/skhemata-css';
-import { moneySymbols } from './moneySymbols.js';
-import { locale } from './locale.js';
+import { Skhemata } from 'https://tcskhemata.github.io/SBase/SkhemataBase.ts/skhemata-api-client-js';
+import { Bulma } from 'https://tcskhemata.github.io/SBase/SkhemataBase.ts/skhemata-css';
+import { moneySymbols } from 'https://tcskhemata.github.io/SBase/moneySymbols.js';
+import { locale } from 'https://tcskhemata.github.io/SBase/locale.js';
 
 export class SkhemataBase extends ScopedElementsMixin(LitElement) {
   /**
