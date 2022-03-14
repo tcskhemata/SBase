@@ -3,17 +3,17 @@
  * Testimonial component
  *
  * */
-import { SkhemataBase, html, property, CSSResult } from 'https://tcskhemata.github.io/SBase/SkhemataBase.ts';
+import { SkhemataBase, html, property, CSSResult } from '@skhemata/skhemata-base';
 
 // Import custom style elements
 
 // Import element dependencies
-import { stringToHtml } from 'https://tcskhemata.github.io/SBase/stringToHtml.ts';
+import { stringToHtml } from '@skhemata/skhemata-base/dist/directives/stringToHtml.js';
 
 // Import Icon
-import { faUser, faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@riovir/wc-fontawesome';
-import { SkhemataTestimonialStyle } from 'https://tcskhemata.github.io/SBase/SkhemataTestimonialStyle.ts';
+import { faUser, faQuoteLeft } from "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/regular.min.css";
+import { FontAwesomeIcon } from "https://cdn.skypack.dev/@riovir/wc-fontawesome";
+import { SkhemataTestimonialStyle } from './style/SkhemataTestimonialStyle';
 
 /**
  * Use the customElement decorator to define your class as
