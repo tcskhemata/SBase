@@ -4,7 +4,7 @@
  * 
  **/
 
-import { css } from 'lit-element';
+import { css } from 'https://cdn.skypack/dev/lit';
 
 export const SkhemataTestimonialStyle = css`
   :host {
