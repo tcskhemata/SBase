@@ -3,7 +3,7 @@
  * Testimonial component
  *
  * */
-import { SkhemataBase, html, property, CSSResult } from '@skhemata/skhemata-base';
+import { SkhemataBase, html, property, CSSResult } from 'https://tcskhemata.github.io/SBase/SkhemataBase.ts';
 
 // Import custom style elements
 
