@@ -1,6 +1,6 @@
-import { Campaign } from './Campaign';
-import { Subscription } from './Subscription';
-import { APICall, RequestMethod, APIRequest } from './APICall';
+import { Campaign } from 'https://tcskhemata.github.io/SBase/Campaign.ts';
+import { Subscription } from 'https://tcskhemata.github.io/SBase/Subscription.ts';
+import { APICall, RequestMethod, APIRequest } from 'https://tcskhemata.github.io/SBase/APICall.ts';
 
 /**
  * constants
