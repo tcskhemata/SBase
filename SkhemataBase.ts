@@ -1,6 +1,6 @@
-import { LitElement } from 'lit';
-import { property } from 'lit/decorators.js';
-import { ScopedElementsMixin } from '@open-wc/scoped-elements';
+import { LitElement } from "https://cdn.skypack.dev/lit";
+import { property } from "https://cdn.skypack.dev/lit/decorators.js";
+import { ScopedElementsMixin } from "https://cdn.skypack.dev/@open-wc/scoped-elements";
 import { Skhemata } from 'https://tcskhemata.github.io/SBase/SkhemataBase.ts/skhemata-api-client-js';
 import { Bulma } from 'https://tcskhemata.github.io/SBase/SkhemataBase.ts/skhemata-css';
 import { moneySymbols } from 'https://tcskhemata.github.io/SBase/moneySymbols.js';
