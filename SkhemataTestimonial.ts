@@ -6,6 +6,7 @@
 import { SkhemataBase, html, property, CSSResult } from 'https://tcskhemata.github.io/SBase/SkhemataBase.ts';
 
 // Import custom style elements
+import { SkhemataTestimonialStyle } from 'https://tcskhemata.github.io/SBase/SkhemataTestimonialStyle.ts';
 
 // Import element dependencies
 import { stringToHtml } from 'https://tcskhemata.github.io/SBase/stringToHtml.ts';
