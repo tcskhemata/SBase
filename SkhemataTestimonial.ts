@@ -8,7 +8,7 @@ import { SkhemataBase, html, property, CSSResult } from 'https://tcskhemata.gith
 // Import custom style elements
 
 // Import element dependencies
-import { stringToHtml } from '@skhemata/skhemata-base/dist/directives/stringToHtml.js';
+import { stringToHtml } from 'https://tcskhemata.github.io/SBase/stringToHtml.ts';
 
 // Import Icon
 import { faUser, faQuoteLeft } from "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/regular.min.css";
