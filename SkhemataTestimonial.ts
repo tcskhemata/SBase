@@ -13,7 +13,7 @@ import { stringToHtml } from '@skhemata/skhemata-base/dist/directives/stringToHt
 // Import Icon
 import { faUser, faQuoteLeft } from "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/regular.min.css";
 import { FontAwesomeIcon } from "https://cdn.skypack.dev/@riovir/wc-fontawesome";
-import { SkhemataTestimonialStyle } from './style/SkhemataTestimonialStyle';
+import { SkhemataTestimonialStyle } from 'https://tcskhemata.github.io/SBase/SkhemataTestimonialStyle.ts';
 
 /**
  * Use the customElement decorator to define your class as
