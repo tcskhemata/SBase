@@ -69,9 +69,13 @@ class GithubButton extends LitElement {
     //logTest();
     //this.getAttribute("ext")?
     //import("https://tcskhemata.github.io/SBase/Test.js");
-    logTest?
-      console.log("Exists"):
+    if(logTest){
+      console.log("Exists")
+      logTest()
+    }
+    else{
       console.log("Failed")
+    }
     const githubBaseURL = 'https://github.com'
     const githubURL = new URL(this.link, githubBaseURL)
     this.getAttribute("link-target")?
