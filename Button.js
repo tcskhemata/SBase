@@ -1,7 +1,7 @@
 import { LitElement, html, css } from "https://cdn.skypack.dev/lit";
 //import { logTest } from "https://tcskhemata.github.io/SBase/Test.js";
 
-let logTest;
+let logTest = await import("https://tcskhemata.github.io/SBase/Test.js");
 
 class GithubButton extends LitElement {
   static get styles () {
@@ -68,7 +68,7 @@ class GithubButton extends LitElement {
   handleClick (event) {
     //logTest();
     //this.getAttribute("ext")?
-    import("https://tcskhemata.github.io/SBase/Test.js");
+    //import("https://tcskhemata.github.io/SBase/Test.js");
     logTest?
       console.log("Exists"):
       console.log("Failed")
