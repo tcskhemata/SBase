@@ -71,7 +71,7 @@ class GithubButton extends LitElement {
     //import("https://tcskhemata.github.io/SBase/Test.js");
     if(logTest){
       console.log("Exists")
-      logTest()
+      //logTest()
     }
     else{
       console.log("Failed")
