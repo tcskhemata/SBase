@@ -1,6 +1,8 @@
 import { LitElement, html, css } from "https://cdn.skypack.dev/lit";
 //import { logTest } from "https://tcskhemata.github.io/SBase/Test.js";
 
+let logTest;
+
 class GithubButton extends LitElement {
   static get styles () {
     return css`
@@ -66,9 +68,9 @@ class GithubButton extends LitElement {
   handleClick (event) {
     //logTest();
     //this.getAttribute("ext")?
-    //import("https://tcskhemata.github.io/SBase/Test.js");
-    //if(logTest)
-    //  logTest();
+    import("https://tcskhemata.github.io/SBase/Test.js");
+    if(logTest)
+      logTest();
     const githubBaseURL = 'https://github.com'
     const githubURL = new URL(this.link, githubBaseURL)
     this.getAttribute("link-target")?
